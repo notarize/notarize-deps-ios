@@ -32,7 +32,7 @@ let package = Package(
         .package(
             name: "Sentry",
             url: "https://github.com/getsentry/sentry-cocoa",
-            .exact("4.5.0")),
+            .exact("7.4.3")),
         .package(name: "Segment",
                  url: "https://github.com/segmentio/analytics-ios",
                  .exact("4.1.5"))
