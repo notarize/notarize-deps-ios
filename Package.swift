@@ -35,7 +35,20 @@ let package = Package(
             .exact("7.4.3")),
         .package(name: "Segment",
                  url: "https://github.com/segmentio/analytics-ios",
-                 .exact("4.1.5"))
+                 .exact("4.1.5")),
+        .package(
+            name: "JWTDecode",
+            url: "https://github.com/auth0/JWTDecode.swift",
+            .exact("2.6.0")),
+        .package(
+            name: "PSPDFKit",
+            url: "https://github.com/PSPDFKit/PSPDFKit-SP", .exact("10.5.1")),
+        .package(url: "https://github.com/daltoniam/Starscream", .exact("3.1.1")),
+        .package(
+            name: "TwilioVideo",
+            url: "https://github.com/twilio/twilio-video-ios",
+            .exact("4.6.0"))
+        
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -55,7 +68,11 @@ let package = Package(
                 "Swinject",
                 "Kingfisher",
                 .product(name: "Segment", package: "Segment"),
-                .product(name: "Sentry", package: "Sentry")
+                .product(name: "Sentry", package: "Sentry"),
+                "JWTDecode",
+                .product(name: "PSPDFKit", package: "PSPDFKit"),
+                "Starscream",
+                "TwilioVideo"
             ]),
     ]
 )

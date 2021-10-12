@@ -20,6 +20,24 @@
         }
       },
       {
+        "package": "CwlCatchException",
+        "repositoryURL": "https://github.com/mattgallagher/CwlCatchException.git",
+        "state": {
+          "branch": null,
+          "revision": "35f9e770f54ce62dd8526470f14c6e137cef3eea",
+          "version": "2.1.1"
+        }
+      },
+      {
+        "package": "CwlPreconditionTesting",
+        "repositoryURL": "https://github.com/mattgallagher/CwlPreconditionTesting.git",
+        "state": {
+          "branch": null,
+          "revision": "fb7a26374e8570ff5c68142e5c83406d6abae0d8",
+          "version": "2.0.2"
+        }
+      },
+      {
         "package": "DeviceKit",
         "repositoryURL": "https://github.com/devicekit/DeviceKit",
         "state": {
@@ -29,12 +47,48 @@
         }
       },
       {
+        "package": "JWTDecode",
+        "repositoryURL": "https://github.com/auth0/JWTDecode.swift",
+        "state": {
+          "branch": null,
+          "revision": "3985f68dec94c7d7148d9821abb65cf0c508e9f2",
+          "version": "2.6.0"
+        }
+      },
+      {
         "package": "Kingfisher",
         "repositoryURL": "https://github.com/onevcat/Kingfisher",
         "state": {
           "branch": null,
           "revision": "1a0c2df04b31ed7aa318354f3583faea24f006fc",
           "version": "5.15.8"
+        }
+      },
+      {
+        "package": "Nimble",
+        "repositoryURL": "https://github.com/Quick/Nimble.git",
+        "state": {
+          "branch": null,
+          "revision": "c93f16c25af5770f0d3e6af27c9634640946b068",
+          "version": "9.2.1"
+        }
+      },
+      {
+        "package": "PSPDFKit",
+        "repositoryURL": "https://github.com/PSPDFKit/PSPDFKit-SP",
+        "state": {
+          "branch": null,
+          "revision": "e34dc811022a1d4e27f3e638780484be74927dd8",
+          "version": "10.5.1"
+        }
+      },
+      {
+        "package": "Quick",
+        "repositoryURL": "https://github.com/Quick/Quick.git",
+        "state": {
+          "branch": null,
+          "revision": "8cce6acd38f965f5baa3167b939f86500314022b",
+          "version": "3.1.2"
         }
       },
       {
@@ -83,12 +137,39 @@
         }
       },
       {
+        "package": "Starscream",
+        "repositoryURL": "https://github.com/daltoniam/Starscream",
+        "state": {
+          "branch": null,
+          "revision": "e6b65c6d9077ea48b4a7bdda8994a1d3c6969c8d",
+          "version": "3.1.1"
+        }
+      },
+      {
+        "package": "swift-nio-zlib-support",
+        "repositoryURL": "https://github.com/apple/swift-nio-zlib-support.git",
+        "state": {
+          "branch": null,
+          "revision": "37760e9a52030bb9011972c5213c3350fa9d41fd",
+          "version": "1.0.0"
+        }
+      },
+      {
         "package": "Swinject",
         "repositoryURL": "https://github.com/Swinject/Swinject",
         "state": {
           "branch": null,
           "revision": "8a76d2c74bafbb455763487cc6a08e91bad1f78b",
           "version": "2.7.1"
+        }
+      },
+      {
+        "package": "TwilioVideo",
+        "repositoryURL": "https://github.com/twilio/twilio-video-ios",
+        "state": {
+          "branch": null,
+          "revision": "e9cea5bb66341a2aa1d90276e240577cadd54bbb",
+          "version": "4.6.0"
         }
       }
     ]
