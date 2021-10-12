@@ -14,6 +14,7 @@ let package = Package(
             name: "NotarizeDeps",
             type: .dynamic,
             targets: ["NotarizeDeps"]),
+        .library(name: "NotarizeCV", targets: ["NotarizeCV"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -72,7 +73,11 @@ let package = Package(
                 "JWTDecode",
                 .product(name: "PSPDFKit", package: "PSPDFKit"),
                 "Starscream",
-                "TwilioVideo"
+                "TwilioVideo",
+                "NotarizeCV"
             ]),
+        .binaryTarget(name: "NotarizeCV",
+                      url: "https://ios-notarize-signer-sdk.s3.us-west-1.amazonaws.com/NotarizeCV-1.15.0.xcframework.zip",
+                      checksum: "0cca694a9fdb5c2c68127b72dfa1957e084d9f72b7e82e778875bcf89844c9e7")
     ]
 )
