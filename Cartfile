@@ -8,6 +8,6 @@ github "onevcat/Kingfisher" == 5.15.8
 github "daltoniam/Starscream" == 3.1.0
 github "getsentry/sentry-cocoa" "7.4.4"
 github "auth0/JWTDecode.swift" == 2.6.3
-github "dennisweissmann/DeviceKit" == 4.3.0
+github "dennisweissmann/DeviceKit" == 4.5.0
 github "twilio/twilio-video-ios" == 4.6.0
 github "ashleymills/Reachability.swift" == 4.3.1
