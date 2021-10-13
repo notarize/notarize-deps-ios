@@ -33,7 +33,7 @@ let package = Package(
         .library(name: "Segment",
                  targets: ["Segment"]),
         .library(name: "Sentry",
-                 targets: ["Segment"]),
+                 targets: ["Sentry"]),
         .library(name: "SnapKit",
                  targets: ["SnapKit"]),
         .library(name: "Starscream",
