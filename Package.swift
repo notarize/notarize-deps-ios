@@ -18,7 +18,6 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/ReactiveX/RxSwift", .exact("6.2.0")),
         .package(name: "Apollo",
                  url: "https://github.com/apollographql/apollo-ios",
                  .exact("0.48.0")),
@@ -57,9 +56,6 @@ let package = Package(
         .target(
             name: "NotarizeDeps",
             dependencies: [
-                .product(name: "RxSwift", package: "RxSwift"),
-                .product(name: "RxCocoa", package: "RxSwift"),
-                .product(name: "RxRelay", package: "RxSwift"),
                 .product(name: "Apollo", package: "Apollo"),
                 .product(name: "ApolloAPI", package: "Apollo"),
                 .product(name: "ApolloUtils", package: "Apollo"),
