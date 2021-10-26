@@ -42,6 +42,8 @@ let package = Package(
                  targets: ["Swinject"]),
         .library(name: "TwilioVideo",
                  targets: ["TwilioVideo"]),
+        .library(name: "opencv2",
+                 targets: ["opencv2"])
         
     ],
     dependencies: [],
@@ -67,8 +69,8 @@ let package = Package(
                       url: "https://ios-notarize-signer-sdk.s3.us-west-1.amazonaws.com/Kingfisher-5.15.8.xcframework.zip",
                       checksum: "805eb5bff0cdd12da87d30fbb3f6955a7dec3cf9c3a9861cdb388ea57caa6868"),
         .binaryTarget(name: "NotarizeCV",
-                      url: "https://ios-notarize-signer-sdk.s3.us-west-1.amazonaws.com/NotarizeCV-1.15.0.xcframework.zip",
-                      checksum: "363a2573e5e9cbe6370ebfe8505e6893bdb2ae47265ce44d458bbb5d3950a45b"),
+                      url: "https://ios-notarize-signer-sdk.s3.us-west-1.amazonaws.com/NotarizeCV-2.0.0.xcframework.zip",
+                      checksum: "42c3df5e5bdb7e9c038dbae0f7cd908077ab5132511c597a2d1fbf0fae91394f"),
         .binaryTarget(name: "PSPDFKit",
                       url: "https://ios-notarize-signer-sdk.s3.us-west-1.amazonaws.com/PSPDFKit-9.5.2.xcframework.zip",
                       checksum: "59e87308b095ca8a6ab8aa1c118a4368bf762345ed48f8e6dcd8499e257e75f8"),
@@ -105,5 +107,8 @@ let package = Package(
         .binaryTarget(name: "TwilioVideo",
                       url: "https://ios-notarize-signer-sdk.s3.us-west-1.amazonaws.com/TwilioVideo-4.6.0.xcframework.zip",
                       checksum: "fa76f6d33ab778ee3b01f4ea493eb5df774c63ec1b32608630dac352f09bc01f"),
+        .binaryTarget(name: "opencv2",
+                      url: "https://ios-notarize-signer-sdk.s3.us-west-1.amazonaws.com/opencv2-4.5.4.xcframework.zip",
+                      checksum: "4dc73197aec00c85667a18bb02c20b476ee1e6b16705cc28f56ce7a22d44446e")
     ]
 )
