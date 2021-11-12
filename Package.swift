@@ -13,6 +13,10 @@ let package = Package(
         .library(name: "NotarizeDeps",
                  type: .dynamic,
                  targets: ["NotarizeDeps"]),
+        .library(name: "NotarizeCV",
+                         targets: ["NotarizeCV"]),
+        .library(name: "opencv2",
+                         targets: ["opencv2"])
     ],
     dependencies: [
         .package(name: "Apollo", url: "https://github.com/apollographql/apollo-ios", .exact("0.48.0")),
@@ -57,8 +61,6 @@ let package = Package(
                     "Starscream",
                     "Swinject",
                     .product(name: "TwilioVideo", package: "TwilioVideo"),
-                    "NotarizeCV",
-                    "opencv2"
                 ]),
         .binaryTarget(name: "NotarizeCV",
                       url: "https://ios-notarize-signer-sdk.s3.us-west-1.amazonaws.com/NotarizeCV-2.0.0.xcframework.zip",
