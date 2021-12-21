@@ -65,7 +65,7 @@ let package = Package(
                       checksum: "a296fbc023253fec03ae947fc10e30bd6d6a0c749e5da1ae8f9cb9a2f2240f68"),
         .binaryTarget(name: "NotarizeCV",
                       url: "https://ios-notarize-signer-sdk.s3.us-west-1.amazonaws.com/NotarizeCV-2.1.0.xcframework.zip",
-                      checksum: "c5fd54f97aa1f1d0640f32b1830fdb5adf00571478d8c7195ba73702cf3933a6"),
+                      checksum: "5ec8f266b77e25a5063504e2b80802c6b760cc4c8d84c7ba408a3abb97442395"),
         .binaryTarget(name: "PSPDFKit",
                       url: "https://ios-notarize-signer-sdk.s3.us-west-1.amazonaws.com/PSPDFKit-11.1.1.xcframework.zip",
                       checksum: "af3eb04adb6302255bac4923dc158741acfb6dac8ad6df3dbfb2fa06c4febc22"),
