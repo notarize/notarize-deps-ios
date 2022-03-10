@@ -1,4 +1,4 @@
-github "ReactiveX/RxSwift" == 6.2.0
+github "ReactiveX/RxSwift" == 6.5.0
 github "apollographql/apollo-ios" == 0.48.0
 github "SnapKit/SnapKit" == 5.0.1
 github "Swinject/Swinject" == 2.7.1
