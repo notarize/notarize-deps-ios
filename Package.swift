@@ -59,8 +59,8 @@ let package = Package(
                     .product(name: "TwilioVideo", package: "TwilioVideo"),
                 ]),
         .binaryTarget(name: "NotarizeCV",
-                      url: "https://ios-notarize-signer-sdk.s3.us-west-1.amazonaws.com/NotarizeCV-2.7.0.xcframework.zip",
-                      checksum: "719a11fa4979795338f12a6976adc61931453f286107c99bedf81948ef7c02aa"),
+                      url: "https://ios-notarize-signer-sdk.s3.us-west-1.amazonaws.com/NotarizeCV-2.8.0.xcframework.zip",
+                      checksum: "1fc93e6d6cc350763c5966ae6d850111b0a0bea19beb1b5565cf8716827b2358"),
         .binaryTarget(name: "opencv2",
                       url: "https://ios-notarize-signer-sdk.s3.us-west-1.amazonaws.com/opencv2-4.5.4.xcframework.zip",
                       checksum: "4dc73197aec00c85667a18bb02c20b476ee1e6b16705cc28f56ce7a22d44446e")
