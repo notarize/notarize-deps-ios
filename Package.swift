@@ -61,6 +61,8 @@ let package = Package(
                     "Starscream",
                     "Swinject",
                     .product(name: "TwilioVideo", package: "TwilioVideo"),
+                    .product(name: "TwilioConversationsClient", package: "TwilioConversationsClient"),
+
                 ]),
         .binaryTarget(name: "NotarizeCV",
                       url: "https://ios-notarize-signer-sdk.s3.us-west-1.amazonaws.com/NotarizeCV-2.9.0.xcframework.zip",
