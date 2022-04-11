@@ -42,8 +42,8 @@
         "repositoryURL": "https://github.com/PSPDFKit/PSPDFKit-SP",
         "state": {
           "branch": null,
-          "revision": "3fd06888404e2b456fd94e4fe4bdab8cc5588f5b",
-          "version": "11.1.1"
+          "revision": "66a3c27812ed4ec188938c28cd65fe1fbb26d275",
+          "version": "11.3.0"
         }
       },
       {
