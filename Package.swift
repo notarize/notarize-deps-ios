@@ -25,7 +25,7 @@ let package = Package(
         .package(name: "Kingfisher",
                  url: "https://github.com/onevcat/Kingfisher",
                  .exact("7.1.1")),
-        .package(name: "PSPDFKit", url: "https://github.com/PSPDFKit/PSPDFKit-SP", .exact("11.1.1")),
+        .package(name: "PSPDFKit", url: "https://github.com/PSPDFKit/PSPDFKit-SP", .exact("11.3.0")),
         .package(name: "Reachability", url: "https://github.com/ashleymills/Reachability.swift", .exact("4.3.1")),
         .package(name: "Segment",
                  url: "https://github.com/segmentio/analytics-ios",
