@@ -37,6 +37,9 @@ let package = Package(
         .package(name: "TwilioVideo",
                  url: "https://github.com/twilio/twilio-video-ios",
                  .exact("4.6.0")),
+        .package(name: "TwilioConversationsClient",
+                 url: "https://github.com/twilio/conversations-ios",
+                 .exact("2.2.1"))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -55,6 +58,7 @@ let package = Package(
                     "Starscream",
                     "Swinject",
                     .product(name: "TwilioVideo", package: "TwilioVideo"),
+                    .product(name: "TwilioConversationsClient", package: "TwilioConversationsClient"),
                     .target(name: "PSPDFKit"),
                     .target(name: "PSPDFKitUI")
                 ]),
