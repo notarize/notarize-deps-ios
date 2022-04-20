@@ -38,15 +38,6 @@
         }
       },
       {
-        "package": "PSPDFKit",
-        "repositoryURL": "https://github.com/PSPDFKit/PSPDFKit-SP",
-        "state": {
-          "branch": null,
-          "revision": "66a3c27812ed4ec188938c28cd65fe1fbb26d275",
-          "version": "11.3.0"
-        }
-      },
-      {
         "package": "Reachability",
         "repositoryURL": "https://github.com/ashleymills/Reachability.swift",
         "state": {
