@@ -16,9 +16,7 @@ let package = Package(
         .library(name: "NotarizeCV",
                          targets: ["NotarizeCV"]),
         .library(name: "opencv2",
-                         targets: ["opencv2"]),
-        .library(name: "PSPDFKit",
-                         targets: ["PSPDFKit", "PSPDFKitUI"]),
+                         targets: ["opencv2"])
     ],
     dependencies: [
         .package(name: "Apollo", url: "https://github.com/apollographql/apollo-ios", .exact("0.48.0")),
@@ -38,7 +36,7 @@ let package = Package(
         .package(url: "https://github.com/Swinject/Swinject", .exact("2.7.1")),
         .package(name: "TwilioVideo",
                  url: "https://github.com/twilio/twilio-video-ios",
-                 .exact("4.6.0"))
+                 .exact("4.6.0")),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -57,6 +55,8 @@ let package = Package(
                     "Starscream",
                     "Swinject",
                     .product(name: "TwilioVideo", package: "TwilioVideo"),
+                    .target(name: "PSPDFKit"),
+                    .target(name: "PSPDFKitUI")
                 ]),
         .binaryTarget(name: "NotarizeCV",
                       url: "https://ios-notarize-signer-sdk.s3.us-west-1.amazonaws.com/NotarizeCV-2.9.1.xcframework.zip",
