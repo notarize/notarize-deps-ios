@@ -20,6 +20,15 @@
         }
       },
       {
+        "package": "TwilioConversationsClient",
+        "repositoryURL": "https://github.com/twilio/conversations-ios",
+        "state": {
+          "branch": null,
+          "revision": "72b99434bd2f99a69a81d4041f1c978de02f4224",
+          "version": "2.2.1"
+        }
+      },
+      {
         "package": "JWTDecode",
         "repositoryURL": "https://github.com/auth0/JWTDecode.swift",
         "state": {
