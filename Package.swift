@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.7
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "NotarizeDeps",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v15)
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
@@ -19,46 +19,38 @@ let package = Package(
                          targets: ["opencv2"])
     ],
     dependencies: [
-        .package(name: "Apollo", url: "https://github.com/apollographql/apollo-ios", .exact("0.48.0")),
-        .package(name: "JWTDecode",
-                 url: "https://github.com/auth0/JWTDecode.swift", .exact("2.6.3")),
-        .package(name: "Kingfisher",
-                 url: "https://github.com/onevcat/Kingfisher",
-                 .exact("7.1.1")),
-        .package(name: "Reachability", url: "https://github.com/ashleymills/Reachability.swift", .exact("4.3.1")),
-        .package(name: "Segment",
-                 url: "https://github.com/segmentio/analytics-ios",
-                 .exact("4.1.5")),
-        .package(name: "Sentry",
-                 url: "https://github.com/getsentry/sentry-cocoa", .exact("7.8.0")),
-        .package(url: "https://github.com/SnapKit/SnapKit", .exact("5.0.1")),
-        .package(url: "https://github.com/daltoniam/Starscream", .exact("3.1.0")),
-        .package(url: "https://github.com/Swinject/Swinject", .exact("2.7.1")),
-        .package(name: "TwilioVideo",
-                 url: "https://github.com/twilio/twilio-video-ios",
-                 .exact("4.6.0")),
-        .package(name: "TwilioConversationsClient",
-                 url: "https://github.com/twilio/conversations-ios",
-                 .exact("2.2.1"))
+        .package(url: "https://github.com/apollographql/apollo-ios", exact: "0.48.0"),
+        .package(url: "https://github.com/devicekit/DeviceKit", exact: "5.0.0"),
+        .package(url: "https://github.com/auth0/JWTDecode.swift", exact: "2.6.3"),
+        .package(url: "https://github.com/onevcat/Kingfisher", exact: "7.1.1"),
+        .package(url: "https://github.com/ashleymills/Reachability.swift", exact: "4.3.1"),
+        .package(url: "https://github.com/segmentio/analytics-ios", exact: "4.1.5"),
+        .package(url: "https://github.com/getsentry/sentry-cocoa", exact: "7.8.0"),
+        .package(url: "https://github.com/SnapKit/SnapKit", exact: "5.0.1"),
+        .package(url: "https://github.com/daltoniam/Starscream", exact: "3.1.0"),
+        .package(url: "https://github.com/Swinject/Swinject", exact: "2.7.1"),
+        .package(url: "https://github.com/twilio/twilio-video-ios", exact: "4.6.0"),
+        .package(url: "https://github.com/twilio/conversations-ios", exact: "2.2.1")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(name: "NotarizeDeps",
                 dependencies: [
-                    .product(name: "Apollo", package: "Apollo"),
-                    .product(name: "ApolloAPI", package: "Apollo"),
-                    .product(name: "ApolloUtils", package: "Apollo"),
-                    .product(name: "JWTDecode", package: "JWTDecode"),
+                    .product(name: "Apollo", package: "apollo-ios"),
+                    .product(name: "ApolloAPI", package: "apollo-ios"),
+                    .product(name: "ApolloUtils", package: "apollo-ios"),
+                    .product(name: "DeviceKit", package: "DeviceKit"),
+                    .product(name: "JWTDecode", package: "JWTDecode.swift"),
                     .product(name: "Kingfisher", package: "Kingfisher"),
-                    .product(name: "Reachability", package: "Reachability"),
-                    .product(name: "Segment", package: "Segment"),
-                    .product(name: "Sentry", package: "Sentry"),
+                    .product(name: "Reachability", package: "Reachability.swift"),
+                    .product(name: "Segment", package: "analytics-ios"),
+                    .product(name: "Sentry", package: "Sentry-cocoa"),
                     "SnapKit",
                     "Starscream",
                     "Swinject",
-                    .product(name: "TwilioVideo", package: "TwilioVideo"),
-                    .product(name: "TwilioConversationsClient", package: "TwilioConversationsClient"),
+                    .product(name: "TwilioVideo", package: "twilio-video-ios"),
+                    .product(name: "TwilioConversationsClient", package: "conversations-ios"),
                     .target(name: "PSPDFKit"),
                     .target(name: "PSPDFKitUI")
                 ]),
