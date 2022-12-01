@@ -19,7 +19,7 @@ let package = Package(
                          targets: ["opencv2"])
     ],
     dependencies: [
-        .package(url: "https://github.com/apollographql/apollo-ios", exact: "0.48.0"),
+        .package(url: "https://github.com/apollographql/apollo-ios", exact: "1.0.5"),
         .package(url: "https://github.com/devicekit/DeviceKit", exact: "5.0.0"),
         .package(url: "https://github.com/auth0/JWTDecode.swift", exact: "2.6.3"),
         .package(url: "https://github.com/onevcat/Kingfisher", exact: "7.1.1"),
@@ -38,8 +38,6 @@ let package = Package(
         .target(name: "NotarizeDeps",
                 dependencies: [
                     .product(name: "Apollo", package: "apollo-ios"),
-                    .product(name: "ApolloAPI", package: "apollo-ios"),
-                    .product(name: "ApolloUtils", package: "apollo-ios"),
                     .product(name: "DeviceKit", package: "DeviceKit"),
                     .product(name: "JWTDecode", package: "JWTDecode.swift"),
                     .product(name: "Kingfisher", package: "Kingfisher"),
