@@ -25,7 +25,7 @@ let package = Package(
         .package(url: "https://github.com/onevcat/Kingfisher", exact: "7.1.1"),
         .package(url: "https://github.com/ashleymills/Reachability.swift", exact: "4.3.1"),
         .package(url: "https://github.com/segmentio/analytics-ios", exact: "4.1.5"),
-        .package(url: "https://github.com/getsentry/sentry-cocoa", exact: "7.8.0"),
+        .package(url: "https://github.com/getsentry/sentry-cocoa", exact: "7.31.4"),
         .package(url: "https://github.com/SnapKit/SnapKit", exact: "5.0.1"),
         .package(url: "https://github.com/daltoniam/Starscream", exact: "3.1.0"),
         .package(url: "https://github.com/Swinject/Swinject", exact: "2.7.1"),
