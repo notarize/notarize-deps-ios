@@ -13,6 +13,9 @@ let package = Package(
         .library(name: "NotarizeDeps",
                  type: .dynamic,
                  targets: ["NotarizeDeps"]),
+        .library(name: "NotarizeTestDeps",
+                 type: .dynamic,
+                 targets: ["NotarizeTestDeps"]),
         .library(name: "NotarizeCV",
                          targets: ["NotarizeCV"]),
         .library(name: "opencv2",
@@ -51,6 +54,10 @@ let package = Package(
                     .product(name: "TwilioConversationsClient", package: "conversations-ios"),
                     .target(name: "PSPDFKit"),
                     .target(name: "PSPDFKitUI")
+                ]),
+        .target(name: "NotarizeTestDeps",
+                dependencies: [
+                    .product(name: "ApolloTestSupport", package: "apollo-ios")
                 ]),
         .binaryTarget(name: "NotarizeCV",
                       url: "https://ios-notarize-signer-sdk.s3.us-west-1.amazonaws.com/NotarizeCV-2.9.1.xcframework.zip",
