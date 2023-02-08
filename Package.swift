@@ -41,6 +41,7 @@ let package = Package(
         .target(name: "NotarizeDeps",
                 dependencies: [
                     .product(name: "Apollo", package: "apollo-ios"),
+                    .product(name: "ApolloAPI", package: "apollo-ios"),
                     .product(name: "DeviceKit", package: "DeviceKit"),
                     .product(name: "JWTDecode", package: "JWTDecode.swift"),
                     .product(name: "Kingfisher", package: "Kingfisher"),
