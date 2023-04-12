@@ -19,7 +19,7 @@ let package = Package(
                          targets: ["opencv2"])
     ],
     dependencies: [
-        .package(url: "https://github.com/apollographql/apollo-ios", exact: "1.1.0"),
+        .package(url: "https://github.com/apollographql/apollo-ios", exact: "1.1.1"),
         .package(url: "https://github.com/devicekit/DeviceKit", exact: "5.0.0"),
         .package(url: "https://github.com/auth0/JWTDecode.swift", exact: "2.6.3"),
         .package(url: "https://github.com/onevcat/Kingfisher", exact: "7.1.1"),
