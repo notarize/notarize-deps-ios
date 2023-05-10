@@ -21,16 +21,16 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/apollographql/apollo-ios", exact: "1.1.3"),
         .package(url: "https://github.com/devicekit/DeviceKit", exact: "5.0.0"),
-        .package(url: "https://github.com/auth0/JWTDecode.swift", exact: "2.6.3"),
-        .package(url: "https://github.com/onevcat/Kingfisher", exact: "7.1.1"),
-        .package(url: "https://github.com/ashleymills/Reachability.swift", exact: "4.3.1"),
-        .package(url: "https://github.com/segmentio/analytics-swift", exact: "1.3.5"),
-        .package(url: "https://github.com/getsentry/sentry-cocoa", exact: "7.31.4"),
-        .package(url: "https://github.com/SnapKit/SnapKit", exact: "5.0.1"),
+        .package(url: "https://github.com/auth0/JWTDecode.swift", exact: "3.0.1"),
+        .package(url: "https://github.com/onevcat/Kingfisher", exact: "7.6.2"),
+        .package(url: "https://github.com/ashleymills/Reachability.swift", exact: "5.1.0"),
+        .package(url: "https://github.com/segmentio/analytics-swift", exact: "1.4.4"),
+        .package(url: "https://github.com/getsentry/sentry-cocoa", exact: "8.7.0"),
+        .package(url: "https://github.com/SnapKit/SnapKit", exact: "5.6.0"),
         .package(url: "https://github.com/daltoniam/Starscream", exact: "3.1.0"),
-        .package(url: "https://github.com/Swinject/Swinject", exact: "2.7.1"),
-        .package(url: "https://github.com/twilio/twilio-video-ios", exact: "4.6.0"),
-        .package(url: "https://github.com/twilio/conversations-ios", exact: "2.2.1")
+        .package(url: "https://github.com/Swinject/Swinject", exact: "2.8.3"),
+        .package(url: "https://github.com/twilio/twilio-video-ios", exact: "5.6.0"),
+        .package(url: "https://github.com/twilio/conversations-ios", exact: "3.1.0")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
