@@ -44,7 +44,7 @@ let package = Package(
                     .product(name: "Kingfisher", package: "Kingfisher"),
                     .product(name: "Reachability", package: "Reachability.swift"),
                     .product(name: "Segment", package: "analytics-swift"),
-                    .product(name: "SegmentMixpanelPlugin", package: "analytics-swift-mixpanel"),
+                    .product(name: "SegmentMixpanel", package: "analytics-swift-mixpanel"),
                     .product(name: "Sentry", package: "Sentry-cocoa"),
                     "SnapKit",
                     "Starscream",
