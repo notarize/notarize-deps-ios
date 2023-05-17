@@ -10,6 +10,15 @@
       }
     },
     {
+      "identity" : "analytics-swift-mixpanel",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/segment-integrations/analytics-swift-mixpanel.git",
+      "state" : {
+        "revision" : "685dba8f4810182dbf583d47aeb91ea3009703bd",
+        "version" : "1.1.4"
+      }
+    },
+    {
       "identity" : "apollo-ios",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apollographql/apollo-ios",
@@ -70,6 +79,15 @@
       "state" : {
         "revision" : "612f0c3e86a8a6c5a9fac87da9b990ce836c3214",
         "version" : "12.3.0"
+      }
+    },
+    {
+      "identity" : "mixpanel-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mixpanel/mixpanel-swift",
+      "state" : {
+        "revision" : "78e020a28d3878900e96224aad1b10219ab611f9",
+        "version" : "4.1.2"
       }
     },
     {
