@@ -30,7 +30,8 @@ let package = Package(
         .package(url: "https://github.com/daltoniam/Starscream", exact: "3.1.0"),
         .package(url: "https://github.com/Swinject/Swinject", exact: "2.8.3"),
         .package(url: "https://github.com/twilio/twilio-video-ios", exact: "5.6.0"),
-        .package(url: "https://github.com/twilio/conversations-ios", exact: "3.1.0")
+        .package(url: "https://github.com/twilio/conversations-ios", exact: "3.1.0"),
+        .package(url: "https://github.com/PSPDFKit/PSPDFKit-SP", exact: "12.2.0")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -49,8 +50,7 @@ let package = Package(
                     "Swinject",
                     .product(name: "TwilioVideo", package: "twilio-video-ios"),
                     .product(name: "TwilioConversationsClient", package: "conversations-ios"),
-                    .target(name: "PSPDFKit"),
-                    .target(name: "PSPDFKitUI")
+                    .product(name: "PSPDFKit", package: "PSPDFKit-SP")
                 ]),
         .binaryTarget(name: "NotarizeCV",
                       url: "https://ios-notarize-signer-sdk.s3.us-west-1.amazonaws.com/NotarizeCV-2.9.1.xcframework.zip",
@@ -58,11 +58,5 @@ let package = Package(
         .binaryTarget(name: "opencv2",
                       url: "https://ios-notarize-signer-sdk.s3.us-west-1.amazonaws.com/opencv2-4.5.4.xcframework.zip",
                       checksum: "4dc73197aec00c85667a18bb02c20b476ee1e6b16705cc28f56ce7a22d44446e"),
-        .binaryTarget(name: "PSPDFKit",
-                      url: "https://ios-notarize-signer-sdk.s3.us-west-1.amazonaws.com/PSPDFKit-for-iOS-PSPDFKit.xcframework-11.3.1.zip",
-                      checksum: "8b72c61db0497111cb5e94af2269c8e8a5a7b5935f5600d87264e1df266f0144"),
-        .binaryTarget(name: "PSPDFKitUI",
-                      url: "https://ios-notarize-signer-sdk.s3.us-west-1.amazonaws.com/PSPDFKit-for-iOS-PSPDFKitUI.xcframework-11.3.1.zip",
-                      checksum: "d2ba1b1a01ac5a4cb36610200f8e13e671d8608608a6dcde46721e9b0ab04ab1"),
     ]
 )
