@@ -1,21 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "analytics-swift",
+      "identity" : "analytics-ios",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/segmentio/analytics-swift",
+      "location" : "https://github.com/segmentio/analytics-ios",
       "state" : {
-        "revision" : "c8fd5fdf59299f00b3e4303a1b12a6d88893bf56",
-        "version" : "1.4.7"
-      }
-    },
-    {
-      "identity" : "analytics-swift-mixpanel",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/segment-integrations/analytics-swift-mixpanel.git",
-      "state" : {
-        "revision" : "685dba8f4810182dbf583d47aeb91ea3009703bd",
-        "version" : "1.1.4"
+        "revision" : "78423aaae2e48e32a07246850f37c76f3d34cb84",
+        "version" : "4.1.8"
       }
     },
     {
@@ -73,15 +64,6 @@
       }
     },
     {
-      "identity" : "mixpanel-swift",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/mixpanel/mixpanel-swift",
-      "state" : {
-        "revision" : "78e020a28d3878900e96224aad1b10219ab611f9",
-        "version" : "4.1.2"
-      }
-    },
-    {
       "identity" : "pspdfkit-sp",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/PSPDFKit/PSPDFKit-SP",
@@ -115,15 +97,6 @@
       "state" : {
         "revision" : "f222cbdf325885926566172f6f5f06af95473158",
         "version" : "5.6.0"
-      }
-    },
-    {
-      "identity" : "sovran-swift",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/segmentio/Sovran-Swift.git",
-      "state" : {
-        "revision" : "64f3b5150c282a34af4578188dce2fd597e600e3",
-        "version" : "1.1.0"
       }
     },
     {
