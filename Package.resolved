@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apollographql/apollo-ios",
       "state" : {
-        "revision" : "97ad4f5b41f003f4f283c5f3386fb773af17aa67",
-        "version" : "1.3.2"
+        "revision" : "f94d367fcc94a4249c7f4eb4111fbf9d010e3a97",
+        "version" : "1.4.0"
       }
     },
     {
@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/twilio/conversations-ios",
       "state" : {
-        "revision" : "15b4bdd792739a809137f5a41854ead03bea1345",
-        "version" : "4.0.1"
+        "revision" : "950841709e49043c023b94f54cd7e3106ecf3bf5",
+        "version" : "4.0.2"
       }
     },
     {
@@ -59,8 +59,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/onevcat/Kingfisher",
       "state" : {
-        "revision" : "c1f60c63f356d364f4284ba82961acbe7de79bcc",
-        "version" : "7.8.1"
+        "revision" : "c75584ac759cbb16b204d0a7de3ebf53ea6b304d",
+        "version" : "7.9.0"
       }
     },
     {

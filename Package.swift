@@ -19,10 +19,10 @@ let package = Package(
                          targets: ["opencv2"])
     ],
     dependencies: [
-        .package(url: "https://github.com/apollographql/apollo-ios", exact: "1.3.2"),
+        .package(url: "https://github.com/apollographql/apollo-ios", exact: "1.4.0"),
         .package(url: "https://github.com/devicekit/DeviceKit", exact: "5.0.0"),
         .package(url: "https://github.com/auth0/JWTDecode.swift", exact: "3.1.0"),
-        .package(url: "https://github.com/onevcat/Kingfisher", exact: "7.8.1"),
+        .package(url: "https://github.com/onevcat/Kingfisher", exact: "7.9.0"),
         .package(url: "https://github.com/ashleymills/Reachability.swift", exact: "5.1.0"),
         .package(url: "https://github.com/segmentio/analytics-ios", exact: "4.1.8"),
         .package(url: "https://github.com/getsentry/sentry-cocoa", exact: "8.8.0"),
@@ -30,7 +30,7 @@ let package = Package(
         .package(url: "https://github.com/daltoniam/Starscream", exact: "3.1.0"),
         .package(url: "https://github.com/Swinject/Swinject", exact: "2.8.3"),
         .package(url: "https://github.com/twilio/twilio-video-ios", exact: "5.7.0"),
-        .package(url: "https://github.com/twilio/conversations-ios", exact: "4.0.1"),
+        .package(url: "https://github.com/twilio/conversations-ios", exact: "4.0.2"),
         .package(url: "https://github.com/PSPDFKit/PSPDFKit-SP", exact: "12.3.0")
     ],
     targets: [
