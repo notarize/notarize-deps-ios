@@ -46,6 +46,15 @@
       }
     },
     {
+      "identity" : "inquiry-ios-2",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/persona-id/inquiry-ios-2",
+      "state" : {
+        "revision" : "d01d99083ccc551a709278fce3e66606166214ae",
+        "version" : "2.12.1"
+      }
+    },
+    {
       "identity" : "jwtdecode.swift",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/auth0/JWTDecode.swift",

@@ -31,7 +31,8 @@ let package = Package(
         .package(url: "https://github.com/Swinject/Swinject", exact: "2.8.3"),
         .package(url: "https://github.com/twilio/twilio-video-ios", exact: "5.7.0"),
         .package(url: "https://github.com/twilio/conversations-ios", exact: "4.0.2"),
-        .package(url: "https://github.com/PSPDFKit/PSPDFKit-SP", exact: "12.3.0")
+        .package(url: "https://github.com/PSPDFKit/PSPDFKit-SP", exact: "12.3.0"),
+        .package(url: "https://github.com/persona-id/inquiry-ios-2", exact: "2.12.1")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -50,7 +51,8 @@ let package = Package(
                     "Swinject",
                     .product(name: "TwilioVideo", package: "twilio-video-ios"),
                     .product(name: "TwilioConversationsClient", package: "conversations-ios"),
-                    .product(name: "PSPDFKit", package: "PSPDFKit-SP")
+                    .product(name: "PSPDFKit", package: "PSPDFKit-SP"),
+                    .product(name: "PersonaInquirySDK2", package: "inquiry-ios-2")
                 ]),
         .binaryTarget(name: "NotarizeCV",
                       url: "https://ios-notarize-signer-sdk.s3.us-west-1.amazonaws.com/NotarizeCV-2.9.1.xcframework.zip",
