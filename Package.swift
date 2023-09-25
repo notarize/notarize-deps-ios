@@ -20,7 +20,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apollographql/apollo-ios", exact: "1.5.0"),
-        .package(url: "https://github.com/devicekit/DeviceKit", exact: "5.0.0"),
+        .package(url: "https://github.com/devicekit/DeviceKit", exact: "5.1.0"),
         .package(url: "https://github.com/auth0/JWTDecode.swift", exact: "3.1.0"),
         .package(url: "https://github.com/onevcat/Kingfisher", exact: "7.9.1"),
         .package(url: "https://github.com/ashleymills/Reachability.swift", exact: "5.1.0"),
