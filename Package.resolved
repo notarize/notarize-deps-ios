@@ -50,8 +50,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/persona-id/inquiry-ios-2",
       "state" : {
-        "revision" : "b3cf2b4eb38b57a829a43419d0ccdc207690bc14",
-        "version" : "2.12.3"
+        "revision" : "573659021d77bb263b8e5996fe4c614185521720",
+        "version" : "2.12.4"
       }
     },
     {
