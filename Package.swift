@@ -32,7 +32,7 @@ let package = Package(
         .package(url: "https://github.com/twilio/twilio-video-ios", exact: "5.7.0"),
         .package(url: "https://github.com/twilio/conversations-ios", exact: "4.0.2"),
         .package(url: "https://github.com/PSPDFKit/PSPDFKit-SP", exact: "12.3.0"),
-        .package(url: "https://github.com/persona-id/inquiry-ios-2", exact: "2.12.1")
+        .package(url: "https://github.com/persona-id/inquiry-ios-2", exact: "2.12.4")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
