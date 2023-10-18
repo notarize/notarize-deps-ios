@@ -19,8 +19,8 @@ let package = Package(
                          targets: ["opencv2"])
     ],
     dependencies: [
-        .package(url: "https://github.com/apollographql/apollo-ios", exact: "1.5.0"),
-        .package(url: "https://github.com/devicekit/DeviceKit", exact: "5.0.0"),
+        .package(url: "https://github.com/apollographql/apollo-ios", exact: "1.6.1"),
+        .package(url: "https://github.com/devicekit/DeviceKit", exact: "5.1.0"),
         .package(url: "https://github.com/auth0/JWTDecode.swift", exact: "3.1.0"),
         .package(url: "https://github.com/onevcat/Kingfisher", exact: "7.9.1"),
         .package(url: "https://github.com/ashleymills/Reachability.swift", exact: "5.1.0"),
@@ -28,11 +28,11 @@ let package = Package(
         .package(url: "https://github.com/getsentry/sentry-cocoa", exact: "8.8.0"),
         .package(url: "https://github.com/SnapKit/SnapKit", exact: "5.6.0"),
         .package(url: "https://github.com/daltoniam/Starscream", exact: "3.1.0"),
-        .package(url: "https://github.com/Swinject/Swinject", exact: "2.8.3"),
+        .package(url: "https://github.com/Swinject/Swinject", exact: "2.8.4"),
         .package(url: "https://github.com/twilio/twilio-video-ios", exact: "5.7.0"),
         .package(url: "https://github.com/twilio/conversations-ios", exact: "4.0.2"),
         .package(url: "https://github.com/PSPDFKit/PSPDFKit-SP", exact: "12.3.0"),
-        .package(url: "https://github.com/persona-id/inquiry-ios-2", exact: "2.12.4")
+        .package(url: "https://github.com/persona-id/inquiry-ios-2", exact: "2.12.6")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
